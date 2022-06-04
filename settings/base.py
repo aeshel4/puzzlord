@@ -20,10 +20,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY", "FIXME_SECRET_KEY_GOES_HERE")
+SECRET_KEY = os.environ.get("SECRET_KEY", "+iA#;2IXK8ut6}d")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -189,9 +189,9 @@ LOGGING = {
 HUNT_REPO = "/srv/FIXME/"
 
 HUNT_TIME = datetime.datetime(
-    year=2021,
-    month=1,
-    day=15,
+    year=2023,
+    month=5,
+    day=6,
     hour=17,
     minute=0,
     second=0,
